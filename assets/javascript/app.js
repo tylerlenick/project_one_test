@@ -11,7 +11,8 @@ function restaurantGenerator() {
         url: queryURL,
         method: "GET",
         headers: {
-            'Access-Control-Allow-Origin': 'https://tylerlenick.github.io'
+            'Access-Control-Request-Method': "GET",
+            'Access-Control-Request-Origin': 'https://tylerlenick.github.io'
         },
       }).then(function(response) {
 
