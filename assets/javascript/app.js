@@ -3,7 +3,7 @@
 function restaurantGenerator() {
 
     var location = ""; //Take from input
-    var queryURL = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=28.538336,-81.379234&radius=1000&type=restaurant&opennow&key=AIzaSyByVBnGeFonjpCvf6sWFqbaBr9A3RidvsA"
+    var queryURL = "https://developers.zomato.com/api/v2.1/search?entity_id=orlando&entity_type=city&radius=1500&apikey=619be33d8bed29a54c63e43156c43a6f"
 
     
     console.log("working function call");
